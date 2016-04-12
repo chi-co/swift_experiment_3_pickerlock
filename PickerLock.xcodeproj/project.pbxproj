@@ -14,6 +14,7 @@
 		83C906C71CBD9B4400FB2FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C906C51CBD9B4400FB2FE7 /* Main.storyboard */; };
 		83C906C91CBD9B4400FB2FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C906C81CBD9B4400FB2FE7 /* Assets.xcassets */; };
 		83C906CC1CBD9B4400FB2FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C906CA1CBD9B4400FB2FE7 /* LaunchScreen.storyboard */; };
+		83C906D41CBDA92700FB2FE7 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C906D31CBDA92700FB2FE7 /* CGFloatExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		83C906C81CBD9B4400FB2FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83C906CB1CBD9B4400FB2FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83C906CD1CBD9B4400FB2FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C906D31CBDA92700FB2FE7 /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				83C906BD1CBD9B4400FB2FE7 /* AppDelegate.swift */,
 				83C906BF1CBD9B4400FB2FE7 /* GameScene.sks */,
 				83C906C11CBD9B4400FB2FE7 /* GameScene.swift */,
+				83C906D31CBDA92700FB2FE7 /* CGFloatExtension.swift */,
 				83C906C31CBD9B4400FB2FE7 /* GameViewController.swift */,
 				83C906C51CBD9B4400FB2FE7 /* Main.storyboard */,
 				83C906C81CBD9B4400FB2FE7 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			files = (
 				83C906C21CBD9B4400FB2FE7 /* GameScene.swift in Sources */,
 				83C906C41CBD9B4400FB2FE7 /* GameViewController.swift in Sources */,
+				83C906D41CBDA92700FB2FE7 /* CGFloatExtension.swift in Sources */,
 				83C906BE1CBD9B4400FB2FE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
